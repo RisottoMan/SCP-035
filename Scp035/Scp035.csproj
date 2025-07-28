@@ -81,6 +81,9 @@
         <Reference Include="Mirror" HintPath="$(SL_REFERENCES)\Mirror.dll" />
         <Reference Include="AudioPlayerApi" HintPath="$(SL_REFERENCES)\AudioPlayerApi.dll" />
         <Reference Include="RoleAPI" HintPath="$(SL_REFERENCES)\RoleAPI.dll" />
+        <Reference Include="YamlDotNet, Version=11.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e, processorArchitecture=MSIL">
+          <HintPath>packages\ExMod.Exiled.9.6.3\lib\net48\YamlDotNet.dll</HintPath>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Commands\MainCommand.cs" />
@@ -94,6 +97,10 @@
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Features\Abilities\" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="App.config" />
+      <None Include="packages.config" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
 </Project>
