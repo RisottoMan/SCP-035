@@ -17,5 +17,5 @@
 
 # Credits
  ![img](https://img.shields.io/github/downloads/RisottoMan/SCP-035/total.svg)
-- Thanks ``...`` for the creating model
+- Thanks ``Albanian Fish`` for the creating model
 - Thanks to everyone who helped test SCP-035
